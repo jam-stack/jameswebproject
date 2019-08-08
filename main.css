@@ -1,24 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Blinker|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Saira+Stencil+One&display=swap');
 * {
     color:rgb(255, 255, 255) ;
    
 }
-body {
-    background-image: url("giphy.gif");
-}
-/*body {
-    background-color: rgba (654, 123, 40, 0.04 );*/
-}
-h1{
-    font-size: 5000px;
-    text-align: center;
-}
+
 *{
-box-sizing: border-box;
-padding: 50px 25px 75px 100px
+    box-sizing: border-box;
+    padding: 25px;
+    }
+.box {
+    color:white;
+    font-size:50px;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    text-align: center; 
+    padding:15px; 
+    flex: 1;
+}
+.container {
+    display: flex;
 }
 
-p{
+
+body
+{
+background: url(giphy.gif) no-repeat center fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Press Start 2P', monospace;
+}
+h2 {
+    font-family: 'Blinker', sans-serif;
+}
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+ }
+
+ .topnav{
+     color: white;
+     font-family: 'Blinker', sans-serif;
+     font-size: 30px
+
+ }
+ /*.topnav{
+    float: left;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+    <--text-align: center;
+    padding: 20px 610px;
+    text-decoration:white;
+    font-size: 30px
+ }*/*
+
+
+
+/*body {
+    background-image: url("giphy.gif");
+}
+*/
+/*body {
+    background-color: rgba (654, 123, 40, 0.04 );*/
+
+    /*.button {
+      background-color: #4CAF50; /* Green *
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    
+    /*
+    .button2 {background-color: #008CBA;} 
+    .button3 {background-color: #f44336;}  
+    .button4 {background-color: #e7e7e7; color: black;} 
+    .button5 {background-color: #555555;} 
+    style>
+    head>
+    body>
+    
+    <h2>Button Colors</h2>
+    <p>Change the background color of a button with the background-color property:</p>
+    
+    <button class="button">Green</button>
+    <button class="button button2">Home</button>
+    <button class="button button3">About me</button>
+    <button class="button button4">Unit1</button>
+    <button class="button button5">Unit2</button>   
+}
+
+*/
+
+h1{
+    font-size: 50px;
     text-align: center;
+}
+
+
+p{
+    text-align:left;
+    font-family: 'Roboto Mono', monospace
 }
 .center {
 text-align: center;
@@ -28,10 +120,13 @@ margin-right: auto;
 width: auto;
 
 }
-
+.method{
+    text-align: left
 }
+
+ /*
 html {
-    -webkit-background-size: cover;
+   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -49,23 +144,18 @@ html {
     }
     .unit1-bg {
      /*background-image: url("giphy.gif");*/
-    background-color: aqua
+   
     }
 
 
-html
-{
-background: url(giphy.gif) no-repeat center fixed;
-    background-size: cover;
-}
 
 
 h1{
     color:rgb(255, 217, 0);
 }
 h2{
-    color:rgb(164, 236, 176);
+    color:rgb(2, 250, 44);
 }
 h3{
-    color:rgb(215, 249, 250)
+    color:rgb(0, 255, 213)
 }
