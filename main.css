@@ -9,7 +9,7 @@
 
 *{
     box-sizing: border-box;
-    padding: 25px;
+    padding: 5px;
     }
 .box {
     color:white;
@@ -123,6 +123,11 @@ width: auto;
 .method{
     text-align: left
 }
+ol{
+    text-align:center;
+    font-family: 'Roboto Mono', monospace
+
+}
 
  /*
 html {
@@ -135,6 +140,7 @@ html {
     /* set background image per page */
     .home-bg {
         background-image: url("earth.gif");
+        padding: 0px,100px,00px, 0px
 
     }
     
@@ -158,4 +164,8 @@ h2{
 }
 h3{
     color:rgb(0, 255, 213)
+}
+.earth{
+    padding-left: 100px;
+    padding-right: 100px;
 }
